@@ -1,0 +1,116 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url('pictureeeee.jpg') no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+
+}
+#form_1 {
+    width: 30%;
+    height: 60%;
+    background-color: rgb(174, 145, 145);
+}
+
+#box_1 {
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+    overflow: hidden;
+    width: 100%;
+    height: 85%;
+    background-color: #a17035;
+
+}
+
+#box_1_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid transparent;
+    background: rgb(185, 232, 193);
+
+    width: 100%;
+    height: 5%;
+}
+
+#head_fill {
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: #000;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+}
+
+#sign_fill_in button {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background: transparent;
+    color: inherit;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 14px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign_fill_in {
+    width: 22.5%;
+    height: 5%;
+    text-align: center;
+    background-image: linear-gradient(50deg, #616462, #05922b 20%, #253063 10%, #c88420);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 5px;
+    position: absolute;
+}
+
+
+#form_2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 90%;
+    height: 90%;
+    float: left;
+
+}
+
+#form_2_a {
+    width: 80%;
+    height: 80%;
+    float: left;
+}

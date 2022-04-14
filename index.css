@@ -1,0 +1,114 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: url('pictureeeee.jpg') no-repeat center/cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+#box1 {
+    width: 35%;
+    height: 50%;
+    background-color: rgb(237, 175, 175);
+}
+
+a{
+    color: #504c8c;
+}
+
+a:hover {
+  color: #0e7823;
+}
+
+#box2 {
+    width: 100%;
+    height: 90%;
+
+    float: left;
+    background-color: #d688c6 ;
+    padding-top: 30px;
+}
+
+#box2_a {
+    width: 80%;
+    height: 80%;
+    float: right;
+
+}
+
+ a{
+    margin-top: 2vh;
+    padding-top: 16px;
+    width:8px; 
+    font-size: 20px;
+}
+
+input {
+    width: 80%;
+    height: 44px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #f1e5e5;
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+}
+
+#box3 {
+    width: 6%;
+    height: 4%;
+
+    background-color: #3E4041;
+    color: rgb(255, 155, 25);
+    position:absolute;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 6px;
+    border-radius: 6%;
+}
+
+#box3 button {
+    width: 80%;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    display: grid;
+}
+
+#fill_form {
+    width: 100%;
+    height: 100%;
+    background-color: #d688c6;
+    box-shadow: 0 0 50px -20px #100b10;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+#head_fill {
+    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 80%;
+    height: 8%;
+    border-bottom: 1px solid transparent;
+    background: #464747 ;
+}
+
+
+#head_ {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #DEE3E1 ;
+}

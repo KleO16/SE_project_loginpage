@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Log In Page</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+    
+    <body>
+        <div id="box1">
+            <div id="fill_form">
+                <div id="head_fill">
+                    <h2 id="head_"> Login Portal </h2>
+                </div>
+
+                <div id="box2">
+                    <div id="box2_a">
+                        <input type="email" id="Registered_email" placeholder="Email">
+                        <input type="password" id="Passkey" placeholder="Password">
+
+                        <div id="box3">
+                            <button onclick="login()">Log In </button>
+                        </div>
+                        <br><br><br><br>
+                        <a href="signup.html">New User(Sign Up)</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="#" onclick="forgotpass()">Renew Password</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="index.js"></script>
+
+</html>
