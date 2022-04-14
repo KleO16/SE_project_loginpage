@@ -47,7 +47,11 @@ function login () {
     var user = auth.currentUser
     var database_ref = database.ref()
     //user data created and added to firebase
-
+    
+    var user_data = {
+      last_login : Date.now()
+    }
+    
     database_ref.child('users/' + user.uid).update(user_data)
     alert('You have successfully logged in user!')
 
